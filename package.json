@@ -1,0 +1,22 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.7.1",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "open-props": "^1.5.1",
+    "postcss": "^8.4.20",
+    "postcss-jit-props": "^1.0.8",
+    "postcss-preset-env": "^7.8.3"
+  }
+}
