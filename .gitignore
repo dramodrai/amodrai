@@ -1,5 +1,6 @@
 # build output
-
+#dist
+.output/
 
 # dependencies
 node_modules/
@@ -17,3 +18,17 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+
+#all files except dist
+
+.vscode
+public
+src
+.prettierrc.mjs
+astro.config.mjs
+package.json
+pnpm-lock.yaml
+README.md
+tailwind.config.mjs
+tsconfig.json
